@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <a href="#about">About</a> | 
+        <a href="#skills">Skills</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
 
+    <!-- Heading -->
+    <h1 role="heading" aria-level="1">John Doe - Portfolio</h1>
+
+    <!-- Image -->
+    <img src="profile.jpg" alt="Portrait photo of John Doe smiling" role="img">
+
+    <!-- Brief Description -->
+    <p>Welcome to my portfolio! I am a passionate front-end developer dedicated to building inclusive and accessible web experiences for everyone.</p>
+
+    <!-- List with at least three items -->
+    <ul role="list">
+        <li role="listitem">Expertise in HTML5, CSS3, and JavaScript</li>
+        <li role="listitem">Strong focus on Web Accessibility (WCAG and ARIA roles)</li>
+        <li role="listitem">Experience building responsive and modern user interfaces</li>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
